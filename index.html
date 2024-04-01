@@ -258,23 +258,15 @@
         </div>
       </div>
     </div>
-
+    <!-- 카카오맵 API 로드 -->
+    <script
+      type="text/javascript"
+      src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=602fb96eeda5a31b3d70a9901741b979"
+    ></script>
     <!-- 외부 JavaScript 파일 연결 -->
     <script src="./js/map.js"></script>
     <!-- E : Map API : 조재희 -->
-    <!-- 카카오맵 API 로드 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"></script>
-    <script type="text/javascript" >
-      // const dotenv = require("dotenv");
-      // dotenv.config(); 
-      import axios from "axios";
-      const Kakao = axios.create({
-        baseURL: "https://dapi.kakao.com/v2/maps/sdk.js?", // 공통 요청 경로를 지정해준다.
-        headers: {
-          Authorization: `KakaoAK ${process.env.REACT_APP_API_KEY}`,
-        },
-      });
-    </script>
+
     <!-- S : footer : 신창훈 -->
     <footer class="container-fluid py-5">
       <div class="container px-5 px-lg-0">
