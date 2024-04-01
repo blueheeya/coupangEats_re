@@ -53,6 +53,7 @@ h3 span {
 .hunWrap {
   position: fixed;
   z-index: 99;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
   
 }
 .hunWrap .container {
