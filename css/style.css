@@ -52,9 +52,7 @@ h3 span {
 /* header */
 .hunWrap {
   position: fixed;
-  z-index: 99;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
-  
+  z-index: 99;  
 }
 .hunWrap .container {
   padding: 0px 45px;
